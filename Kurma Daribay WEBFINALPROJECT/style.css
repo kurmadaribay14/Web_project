@@ -1,0 +1,299 @@
+body{
+    background-color:brown;
+    padding:0;
+    font-size:12px;
+    margin:0px auto auto auto;
+    color:#000000;
+    font-family: b;
+    src: url("9733.ttf");
+}
+a{ color:#f8981d;  text-decoration: none;}
+#container{
+	width:900px;
+    height: auto;
+    margin:auto;
+    background-color:#FFFFFF;
+}
+#header{
+	width:900px;
+    height:181px;
+    background:url(images/header.jpg) no-repeat center;
+}
+.error-message {
+    padding: 7px 10px;
+    background: #fff1f2;
+    border: #ffd5da 1px solid;
+    color: #d6001c;
+    border-radius: 4px;
+}
+.success-message {
+    padding: 7px 10px;
+    background: #cae0c4;
+    border: #c3d0b5 1px solid;
+    color: #027506;
+    border-radius: 4px;
+}
+.logo{ padding:50px 0 0 155px;}
+.logo a{text-decoration: none; }
+.logo h2{color:brown;}
+/*-----search------*/
+#sb{ float:right;  margin:-18px 335px 0px 0px; color: #fff; }
+#s{ float:right; margin: -20px 40px 0px 500px;}
+/*-----------------------------menu-------------------*/
+#menu{
+    width:628px;
+    height:30px;
+    padding:45px 0 0 10px;
+}
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#menu li {float: left;}
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+a:hover{color:red;}
+li a:hover, .dropdown:hover  {color:#f7a849;}
+li.dropdown {display: inline-block;}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown:hover .dropdown-content {display: block;}
+/*------------------------------------center content--------------------*/
+#centercol{
+    width:900px;
+    padding:0 0 0 0;
+    background:url(images/center_bg.gif) repeat-y center;
+}
+#centercoll{
+    width:900px;
+    padding:0 0 0 0;
+    background:url(images/a7.jpg);
+}
+#leftcol{
+    width:490px;
+    float:left;
+    padding:20px 0 20px 20px;
+    color: red;
+}
+#leftcol .des p{ width:450px; color:black;}
+.limg{ margin-left:100px;}
+.adminkolabel a{color:black;}
+.title{
+    color:#734633;
+    padding:0px;
+    float:left;
+    font-size:19px;
+    margin:10px 10px 10px;
+}
+.bimg{
+    float:left;
+    padding:0 5px 0 0;
+}
+.obox{
+    padding:10px 0 10px 10px;
+    margin:0 20px 20px 0;
+    border-bottom:1px #b2b2b2 dashed;
+    clear:both;
+}
+.box{
+    width:300px;
+    height:200px;
+    float:left;
+    padding:0 0 0 25px;
+    background: white;
+    border-radius:10px;
+}
+.clear{ clear:both;}
+/*------------------------------------right content -------------------*/
+#rightcol{width:370px;float:left;padding:40px 0 20px 20px;}
+/*------month-------------*/
+.col img{
+    float:right;
+    margin-right:-100px;
+}
+.col .books a {
+    color: maroon;
+}
+.col a {
+    color: #ed5411;
+}
+.books {
+    float: right;
+    width: 200px;
+    margin: 0 10px;
+}
+.readmore {
+    text-align: right;
+    margin-top: -0.8em;
+}
+#authormonth {
+    width: 222px;
+    float: left;
+    margin: 10px;
+    margin-top:-40px;
+}
+#bookmonth {
+    width: 236px;
+    float: right;
+    margin-right: 120px;
+    display: inline;
+}
+/*---------------contact_form------------------*/
+.contact_form{
+    width:355px;
+    float:left;
+    padding:25px;
+    margin:20px 0 0 15px;
+    /*_margin:20px 0 0 5px;*/
+    border:1px #DFD1D2 dashed;
+    position:relative;
+}
+.form_row{
+    width:335px;
+    /*_width:355px;*/
+    clear:both;
+    padding:10px 0 10px 0;
+    /*_padding:5px 0 5px 0;*/
+    color:#a53d17;
+}
+label.contact{
+    width:75px;
+    float:left;
+    font-size:12px;
+    text-align:right;
+    padding:4px 5px 0 0;
+    color: #333333;
+}
+input.contact_input{
+    width:253px;
+    height:18px;
+    background-color:#fff;
+    color:#999999;
+    border:1px #DFDFDF solid;
+    float:left;
+}
+textarea.contact_textarea{
+    width:253px;
+    height:120px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    color: #999999;
+    background-color:#fff;
+    border:1px #DFDFDF solid;
+    float:left;
+    margin-left:80px;
+}
+a.logout{text-decoration:none;}
+input.register{
+    margin: 5px;
+    width:71px;
+    height:25px;
+    border:none;
+    cursor:pointer;
+    text-align:center;
+    float:right;
+    color:#FFFFFF;
+    background:url(images/register_bt.gif) no-repeat center;
+}
+a.contact{
+    width:53px;
+    height:24px;
+    display:block;
+    float:right;
+    margin:0 0 0 10px;
+    background:url(images/contact_bt.gif) no-repeat center;
+    text-decoration:none;
+    text-align:center;
+    line-height:24px;
+    color:#fff;
+}
+a.checkout{
+    width:71px;
+    height:25px;
+    display:block;
+    float:right;
+    margin:10px 30px 0 10px;
+    background:url(images/register_bt.gif) no-repeat center;
+    text-decoration:none;
+    text-align:center;
+    line-height:25px;
+    color:#fff;
+}
+.form_subtitle{
+    position:absolute;
+    top:-11px;
+    left:7px;
+    width:auto;
+    height:20px;
+    background-color:#795636;
+    text-align:center;
+    padding:0 7px 0 7px;
+    color:#FFFFFF;
+    font-size:11px;
+    line-height:20px;
+}
+/*-----------------------------------------------------------*/
+footer{background:url(images/footer_bg.gif) repeat-y;}
+footer{
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: normal 16px sans-serif;
+    padding: 45px 50px;
+}
+footer .footer-left p{
+    color:  #8f9296;
+    font-size: 14px;
+    margin: 0;
+}
+/* Footer links */
+footer p.footer-links{
+    font-size:18px;
+    font-weight: bold;
+    margin: 0 0 10px;
+    padding: 0;
+}
+footer p.footer-links a{
+    display:inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color:  inherit;
+}
+footer .footer-right{
+    float: right;
+    margin-top: 6px;
+    max-width: 180px;
+}
+footer .footer-right a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-color:  #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-left: 3px;
+}
